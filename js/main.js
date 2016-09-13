@@ -29,6 +29,8 @@ function DesenhaTabela(){
   var y = 0;
   for(x = 0;x < 50;x++){
     var tr = document.createElement("tr");
+
+    tr.id = 'tabela-algoritimo'
     tr.setAttribute("class","pixel y");
     tr.setAttribute("id","row-"+x);
     table.appendChild(tr);
